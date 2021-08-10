@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+.buscador {
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+.comprar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    list-style: none
+}
+
+header nav ul li {
+    list-style: none;
+    /*margin-left: 0px;*/
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+.burger-menu span {
+    background: #1259c3;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 50%;
+}
+
+.banner {
+    margin-top: 40px;
+}
+
+main {
+    background-color: #ebebeb;
+    margin-top: 5px;
+}
+
+.titular {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.precio {
+    font-size: 18px;
+    margin-left: 20px
+}
+
+.descuento {
+    font-size: 16px;
+    margin-left: 20px
+}
+
+.descripcion {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*footer {
+    border-left: solid 4px #666;
+    border-right: solid 4px #666;
+    opacity: 0.5;
+}*/
+
+
+footer section {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.titular-footer {
+    color: #666;
+    font-size: 15px;
+    /*text-transform: capitalize;*/
+    margin: 10px;
+}
+
+.texto {
+    font-size: 12px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
