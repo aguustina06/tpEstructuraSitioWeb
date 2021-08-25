@@ -8,6 +8,7 @@
 
 body {
     font-family: Roboto;
+    background-color: #ebebeb;
 }
 
 header {
@@ -16,7 +17,7 @@ header {
 
 .buscador {
    margin-left: 20px;
-   margin-top: 20px;
+   margin-top: 30px;
 }
 
 /*.icon {
@@ -45,11 +46,17 @@ header nav ul li a {
     text-decoration: none;
 }
 
-.burger-menu span {
+.burger-menu {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.burger-menu i {
     background: #1259c3;
     font-size: 20px;
     padding: 10px;
     border-radius: 8px;
+    color: white;
     margin: 50%;
     
 }
@@ -57,21 +64,21 @@ header nav ul li a {
 .banner {
     margin-top: 50px;
     /*margin-left: 20px;*/
-    width: 90%;
+    width: 100%;
 }
 
 
 main {
-    background-color: #ebebeb;
+    
     /*margin-top: 5px;*/
     width: 90%;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
-.cuerpo {
+/*.cuerpo {
     margin-left: 150px;
     margin-right: 150px;
-}
+}*/
 
 .titular {
     color:#666;
@@ -84,22 +91,22 @@ main {
 }
 
 .articulo {
-    padding: 10px;
+    background-color: white;
+    margin: 5px 0;
 }
 
 .img-prod {
     width: 100%;
 }
 
-.contenedor {
-    background-color: white;
+.contenedor {  
+    padding: 20px;
     width: 100%;
     border-top: solid 1px #ebebeb;
-    border: 15px;
-    
+
 }
 
-main section article div span { 
+main section article div i { 
 margin: 20px 20px;
 border: 1px solid green;
 border-radius: 50%;
@@ -108,30 +115,27 @@ padding-inline-end: 10px;
 }
 
 .precio {
+    margin-top: 10px;
     font-size: 18px;
-    margin-left: 20px;
-    margin-top: 30px;
+    
 }
 
 .descuento {
     color: #39b54a;
     font-size: 16px;
-    margin-left: 20px;
 }
 
 .descripcion {
+    display: none;
     color: #666;
     font-size: 16px;
     margin-left: 20px;
-    margin-bottom: 20px;
     margin-top: 20px;
 }
 
-/*footer {
-    border-left: solid 4px #666;
-    border-right: solid 4px #666;
-    opacity: 0.5;
-}*/
+footer {
+    background-color: white;
+}
 
 
 footer section {
@@ -149,8 +153,8 @@ footer section {
 
 .texto {
     font-size: 12px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 30px;
+    margin-right: 20px;
 }
 
 .copyright {
@@ -171,6 +175,15 @@ footer section {
 @media (min-width: 361px) { 
 
     .menu {
+        display: block;
+        width: 100%;
+    }
+
+    .descripcion {
+        display: block;
+    }
+
+    .menu{
         display: block;
     }
 
@@ -193,7 +206,7 @@ footer section {
 
 
 
- /*COMPU*/
+ /*COMPUTADORA*/
 
 @media (min-width: 769px) {
 
