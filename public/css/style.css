@@ -17,7 +17,7 @@ header {
 
 .buscador {
    margin-left: 20px;
-   margin-top: 30px;
+   margin-top: 20px;
 }
 
 /*.icon {
@@ -57,13 +57,18 @@ header nav ul li a {
     padding: 10px;
     border-radius: 8px;
     color: white;
-    margin: 50%;
-    
+
+    margin-left: 50%;
+    margin-top: 10px;
 }
 
+
+
+
+
 .banner {
-    margin-top: 50px;
-    /*margin-left: 20px;*/
+    display: none;
+    
     width: 100%;
 }
 
@@ -107,7 +112,7 @@ main {
 }
 
 main section article div i { 
-margin: 20px 20px;
+    margin: 20px 20px;
 border: 1px solid green;
 border-radius: 50%;
 padding-block-end: 10px;
@@ -129,12 +134,16 @@ padding-inline-end: 10px;
     display: none;
     color: #666;
     font-size: 16px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     margin-top: 20px;
 }
 
+
+
+
 footer {
     background-color: white;
+    padding: 5px;
 }
 
 
@@ -153,8 +162,8 @@ footer section {
 
 .texto {
     font-size: 12px;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .copyright {
@@ -174,7 +183,7 @@ footer section {
  /*TABLET*/
 @media (min-width: 361px) { 
 
-    .menu {
+    .banner {
         display: block;
         width: 100%;
     }
@@ -183,8 +192,9 @@ footer section {
         display: block;
     }
 
-    .menu{
+    .menu {
         display: block;
+        
     }
 
     .burger-menu {
