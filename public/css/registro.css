@@ -1,0 +1,35 @@
+main {
+        text-align: center;     
+    }
+
+main h1 {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 40px;
+        padding-top: 50px
+    }
+
+main form div {
+    padding: 15px;   
+}
+
+main form div input {
+    border-radius: 10px;
+    /* border-bottom: 10px; */
+    padding: 8px 9px;
+    background-color: beige;
+}
+
+.boton {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton button {
+    padding: 10px;
+    background-color: #7298d1;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    
+}

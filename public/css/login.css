@@ -1,0 +1,22 @@
+main {
+    text-align: center;
+}
+
+main h2{
+    padding: 30px;
+}
+
+
+.boton {
+    display: flex;
+    justify-content: space-around;
+}
+
+.boton button {
+    padding: 10px;
+    background-color: #7298d1;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    
+}

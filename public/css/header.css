@@ -1,0 +1,199 @@
+header {
+    background-color: #EAC926;
+}
+
+header div.encabezado {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+header div.encabezado-2 {
+    display: flex;
+    align-items: center;
+    width: 100%
+}
+
+header img.logo {
+    width: 50%;
+}
+
+header div.buscador {
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/*.logo {
+    width: 230px;
+padding: 10px;
+}*/
+
+
+/*header div.buscador {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px 5px;
+    height: 35px;
+}*/
+
+header form input {
+    width: 86%;
+    padding: 7px 8px;
+    border-radius: 10px;
+}
+
+
+/*.buscador {
+   /*margin-left: 20px;
+   margin-top: 20px;
+}*/
+
+/*.buscador button {
+background: transparent;
+position: relative;
+left: -30px;
+padding: 2px;
+border: 0;
+}*/
+
+.comprar {
+    text-align: center;
+    margin-top: 20px
+}
+
+
+
+header nav input{
+    display: none;
+}
+
+header div.buscador button {
+    background-color: white;
+    border: none;
+    height: 75%;
+    width: 20px;
+    position: relative;
+    right: 30px;
+}
+
+
+/*ul*/
+.menu {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    list-style: none;
+    display: none
+}
+
+
+
+
+header nav ul {
+    display: none;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    list-style: none;
+    /*margin-left: 0px;*/
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+.burger-menu {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.burger-menu i {
+    display: flex;
+    width: 48px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: #1259c3;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    /*background: #1259c3;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    margin-left: 50%;
+    margin-top: 10px;*/
+}
+
+
+
+/*TABLET*/
+@media (min-width: 361px) { 
+
+
+    header div.encabezado-2 {
+        padding: 0px;
+        width: 65%;
+    }
+
+    .comprar {
+        width: 30%;
+    }
+
+
+    header nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .menu {
+        /*display: block;*/
+        display: flex;
+        justify-content: space-around;
+        width: 40%
+    }
+
+    .burger-menu {
+        display: none;
+    }
+    
+    
+}
+
+
+
+/*COMPUTADORA*/
+
+@media (min-width: 769px) {
+
+    .menu {
+        display: block;
+    }
+
+        header nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }   
+
+    .menu {
+        /*display: block;*/
+        display: flex;
+        justify-content: space-around;
+        width: 40%
+    }
+}
